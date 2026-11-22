@@ -1,21 +1,21 @@
 *This activity has been created as part of the 42 curriculum by ydames.*
 
 <div align="center">
-  <h1>🖨️ ft_printf</h1>
+  <h1>ft_printf</h1>
   <p><b>Because <code>ft_putnbr()</code> and <code>ft_putstr()</code> aren't enough.</b></p>
 
   <p>
-    <img src="[https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)" alt="C Language" />
-    <img src="[https://img.shields.io/badge/Norminette-Passing-success?style=for-the-badge](https://img.shields.io/badge/Norminette-Passing-success?style=for-the-badge)" alt="Norminette" />
-    <img src="[https://img.shields.io/badge/School-42-black?style=for-the-badge](https://img.shields.io/badge/School-42-black?style=for-the-badge)" alt="42 School" />
+    <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c" alt="C Language" />
+    <img src="https://img.shields.io/badge/Norminette-Passing-success?style=for-the-badge" alt="Norminette" />
+    <img src="https://img.shields.io/badge/School-42-black?style=for-the-badge" alt="42 School" />
   </p>
 </div>
 
 ---
 
-## 📖 Description
+## Description
 
-**ft_printf** is a foundational project in the 42 curriculum whose goal is to recode the famous `printf()` function from the C standard library (`libc`)[cite: 6, 8]. 
+**ft_printf** is a foundational project in the 42 curriculum whose goal is to recode the famous `printf()` function from the C standard library (`libc`)[cite: 6, 8].
 
 Through this project, the main objective is to discover and master **variadic functions** in C (`va_start`, `va_arg`, `va_copy`, `va_end`) while building a clean, modular, and extensible codebase that can later be integrated directly into `libft` for future 42 C projects[cite: 4, 8].
 
@@ -37,7 +37,7 @@ Unlike the original `printf()`, this implementation does not handle internal buf
 
 ---
 
-## ⚙️ Instructions
+## Instructions
 
 ### Compilation
 
@@ -85,7 +85,7 @@ cc -Wall -Wextra -Werror main.c libftprintf.a -o test_printf
 
 ---
 
-## 🧠 Algorithm & Data Structure
+## Algorithm and Data Structure
 
 ### Algorithm Design: Sequential Parsing & Dispatching
 `ft_printf` processes the format string linearly in a single pass ($O(n)$ time complexity, where $n$ is the length of the format string):
@@ -103,12 +103,12 @@ cc -Wall -Wextra -Werror main.c libftprintf.a -o test_printf
 
 ---
 
-## 📚 Resources
+## Resources
 
-### Classic References
+### References
 * **Linux Manual Pages:** `man 3 printf` and `man 3 stdarg` — Official documentation on format specifiers, return values, and variadic macros (`va_start`, `va_arg`, `va_end`)[cite: 8].
 * **The C Programming Language (K&R):** Chapter 7 (*Input and Output*) — Reference on variable-length argument lists and formatted output design.
 * **42 Docs & Peer Discussions:** Community guides and peer-to-peer code reviews regarding edge cases (`NULL` pointers, unsigned integer overflows, and hexadecimal formatting).
 
-### AI Usage Disclosure
-* **No AI tools were used** during the design, coding, debugging, or testing of this project. All logic, edge-case handling, and code structure were written manually through documentation reading and peer-learning exchanges[cite: 6, 7, 10].
+### AI Usage
+AI was not used at all for this project. No AI tools were used during the design, coding, debugging, or testing of any part of the activity[cite: 10].

@@ -6,11 +6,11 @@
 /*   By: ydames <ydames@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/22 05:48:58 by ydames            #+#    #+#             */
-/*   Updated: 2026/11/22 06:34:59 by ydames           ###   ########.fr       */
+/*   Updated: 2026/11/22 08:12:57 by ydames           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_printf(const char *str, ...)
 {
@@ -31,7 +31,7 @@ int	ft_printf(const char *str, ...)
 			count += ft_printf_helper(str[i], list);
 		}
 		else
-			count += ft_putstr(str[i]);
+			count += ft_putchar(str[i]);
 		i++;
 	}
 	va_end(list);
