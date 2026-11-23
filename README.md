@@ -111,4 +111,4 @@ cc -Wall -Wextra -Werror main.c libftprintf.a -o test_printf
 * **42 Docs & Peer Discussions:** Community guides and peer-to-peer code reviews regarding edge cases (`NULL` pointers, unsigned integer overflows, and hexadecimal formatting).
 
 ### AI Usage
-AI was not used at all for this project. No AI tools were used during the design, coding, debugging, or testing of any part of the activity[cite: 10].
+AI was not used at all for this project. No AI tools were used during the design, coding, debugging, or testing of any part of the activity.
